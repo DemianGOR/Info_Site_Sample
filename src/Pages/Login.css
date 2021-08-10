@@ -1,0 +1,98 @@
+.loginForm {
+    margin-top: 310px;
+    border-radius: 5px;
+    padding: 40px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    background-color: #393a40;
+    text-align: center;
+}
+.center{
+    position: center;
+
+    margin-left: 30%;
+}
+
+.shadow {
+
+    box-shadow: 0 0 20px rgba(0,0,0,1); /* Параметры тени */
+    padding: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.loginScreen input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color:#111111;
+    background-color: #301111;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+.loginScreen input:focus{
+    border-color: #61dafb;
+
+}
+.loginForm button{
+    background-color: #61dafb;
+    border-radius: 5px;
+    width:100%;
+    border-style: none;
+    padding: 10px;
+    margin: 20px auto;
+    color:white;
+    outline: none;
+
+}
+.loginForm button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+
+}
+.loginScreen{
+    max-height: 1000px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom right,#61dafb,#282c34);
+}
+.loginForm h2{
+    color: white;
+    font-width:500;
+    margin-bottom: 30px;
+}
+.emailDiv{
+    color:gray;
+    text-align: left;
+    font-size: 70%;
+}
+.passwordDiv{
+    color:gray;
+    text-align: left;
+    font-size: 70%;
+}
+.switchToRegister{
+    color: gray;
+    font-size: 80%;
+}
+.switchToRegister a{
+    color: #61dafb;
+
+}
+.pageSize{
+    max-height: 700px;
+}
